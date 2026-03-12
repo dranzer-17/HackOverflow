@@ -1,0 +1,38 @@
+{
+  "candidateInfo": {
+    "name": "kavish",
+    "email": "kavish17shah2509@gmail.com"
+  },
+  "interviewStatus": "complete",
+  "questionsAnswered": 1,
+  "totalQuestions": 10,
+  "overallScore": 60,
+  "recommendation": "Maybe",
+  "detailedReport": "Kavish provided a response that indicated some familiarity with the topic, but the answer lacked clarity and depth. While he attempted to address the question, the response was vague and did not fully demonstrate his understanding of the technical aspects required. Improvement in communication and elaboration on technical details would enhance his suitability for the role.",
+  "summary": {
+    "strengths": [
+      "Willingness to engage",
+      "Basic understanding of the topic"
+    ],
+    "painPoints": [
+      "Vagueness in responses",
+      "Lack of depth and clarity"
+    ],
+    "areasToImprove": [
+      "Elaboration on technical details",
+      "Improving communication skills"
+    ]
+  },
+  "evaluations": [
+    {
+      "questionNumber": 1,
+      "question": "Your internship at Senta, you built end to end test suites using Playwright, Can you explain the main features you implemented in those test suites?",
+      "answer": "where I used to create jobs and apply to them automatically. Whether it is LinkedIn or Booking.",
+      "difficulty": "easy",
+      "category": "technical",
+      "score": 6,
+      "maxScore": 10,
+      "feedback": "The answer was directionally correct but lacked detail and clarity. It would have been beneficial to elaborate on specific features of the test suites and how they were implemented."
+    }
+  ]
+}

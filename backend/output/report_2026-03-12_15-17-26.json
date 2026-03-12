@@ -1,0 +1,38 @@
+{
+  "candidateInfo": {
+    "name": "Kavish",
+    "email": "kavish17shah2509@gmail.com"
+  },
+  "interviewStatus": "partial",
+  "questionsAnswered": 1,
+  "totalQuestions": 10,
+  "overallScore": 60,
+  "recommendation": "Maybe",
+  "detailedReport": "Kavish demonstrated a willingness to engage in the interview but struggled with the technical content, particularly regarding Playwright. While he acknowledged a lack of knowledge about the tool, his response showed some understanding of automation concepts. Improvement in technical knowledge and communication clarity would enhance his suitability for the role.",
+  "summary": {
+    "strengths": [
+      "Willingness to engage",
+      "Acknowledgment of knowledge gaps"
+    ],
+    "painPoints": [
+      "Lack of specific technical knowledge",
+      "Vague responses"
+    ],
+    "areasToImprove": [
+      "Deepen understanding of relevant tools",
+      "Enhance clarity in communication"
+    ]
+  },
+  "evaluations": [
+    {
+      "questionNumber": 1,
+      "question": "In your internship at CentOS, you worked with Playwright for browser automation. Can you explain what Playwright is and how you used it in your projects?",
+      "answer": "I do not know what playwright is, but I know that it is used for doctor automation.",
+      "difficulty": "easy",
+      "category": "technical",
+      "score": 6,
+      "maxScore": 10,
+      "feedback": "The candidate acknowledged a lack of knowledge about Playwright, which is a significant gap for the role. However, he did attempt to relate it to automation, showing some understanding of the broader context. More preparation on specific tools would be beneficial."
+    }
+  ]
+}

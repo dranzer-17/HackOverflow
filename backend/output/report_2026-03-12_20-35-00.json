@@ -1,0 +1,24 @@
+{
+  "candidateInfo": {
+    "name": "Kavish Shah",
+    "email": "kavish17shah2509@gmail.com"
+  },
+  "interviewStatus": "incomplete",
+  "questionsAnswered": 0,
+  "totalQuestions": 10,
+  "overallScore": 0,
+  "recommendation": "No Hire",
+  "detailedReport": "Kavish did not answer any of the questions posed during the interview, which indicates a lack of preparedness or understanding of the topics. The inability to engage with the questions suggests he may not be suitable for the role. Improvement in technical knowledge and communication skills is necessary.",
+  "summary": {
+    "strengths": [],
+    "painPoints": [
+      "Failure to answer any questions",
+      "Lack of engagement with the interviewer"
+    ],
+    "areasToImprove": [
+      "Technical knowledge in relevant areas",
+      "Communication skills and confidence in interviews"
+    ]
+  },
+  "evaluations": []
+}
