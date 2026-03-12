@@ -1,6 +1,6 @@
 "use client";
 
-// HACKSYNC Portfolio Generator, adapted for ProjectMorpheus config/routes
+// HACKSYNC Portfolio Generator, adapted for Hack_Overflow config/routes
 
 import { useState } from "react";
 import {

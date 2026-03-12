@@ -1,6 +1,6 @@
 """
 Pydantic schemas for presentation generation
-Ported from ML_Mumbai, adapted for ProjectMorpheus.
+Ported from ML_Mumbai, adapted for Hack_Overflow.
 """
 from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any

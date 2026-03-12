@@ -129,73 +129,10 @@ Nice to Have:
 - Knowledge of machine learning libraries (scikit-learn, TensorFlow).
 - Contributions to open-source projects.`;
 
-  const SAMPLE_RESUME_TEXT = `JOHN DOE
-john.doe@email.com | (555) 123-4567 | linkedin.com/in/johndoe | github.com/johndoe | San Francisco, CA
-
-SUMMARY
-Full Stack Software Engineer with 3 years of experience building scalable web applications. Proficient in React, TypeScript, Python, and FastAPI. Passionate about clean code, performance optimization, and delivering great user experiences.
-
-EXPERIENCE
-
-Software Engineer | TechCorp Inc. | Jan 2022 – Present
-- Developed and maintained 5+ full-stack features using React, TypeScript, and FastAPI, serving 50k+ daily active users.
-- Reduced API response times by 35% through query optimization and Redis caching.
-- Built a CI/CD pipeline using GitHub Actions and deployed services to GCP Cloud Run.
-- Collaborated with product and design teams in agile sprints to ship features on time.
-- Mentored 2 junior engineers through code reviews and pair programming sessions.
-
-Junior Software Engineer | StartupXYZ | Jun 2020 – Dec 2021
-- Built React components and integrated REST APIs for a SaaS dashboard product.
-- Implemented PostgreSQL schemas and wrote optimized SQL queries for analytics endpoints.
-- Wrote unit and integration tests using Jest and pytest, achieving 80%+ code coverage.
-
-EDUCATION
-B.S. Computer Science | University of California, Berkeley | 2020
-
-SKILLS
-Languages: Python, TypeScript, JavaScript, SQL
-Frontend: React, Next.js, Tailwind CSS, HTML5, CSS3
-Backend: FastAPI, Django, Flask, Node.js
-Databases: PostgreSQL, MongoDB, Redis
-DevOps: Docker, Kubernetes, GitHub Actions, GCP, AWS
-Other: Git, REST APIs, Agile/Scrum
-
-PROJECTS
-Personal Finance Tracker – React + FastAPI app with JWT auth, PostgreSQL, and Chart.js visualizations (github.com/johndoe/finance)
-Open Source Contributor – 10+ merged PRs to popular Python libraries on GitHub`;
-
   const handleLoadSample = () => {
+    // Load Sample button ONLY loads the job description
+    // It NEVER touches the resume file
     setJobDescription(SAMPLE_JOB_DESCRIPTION);
-
-    // Build a minimal valid PDF in memory
-    const resumeContent = `%PDF-1.4
-1 0 obj<</Type /Catalog /Pages 2 0 R>>endobj
-2 0 obj<</Type /Pages /Kids [3 0 R] /Count 1>>endobj
-3 0 obj<</Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources <</Font <</F1 5 0 R>>>>>>endobj
-4 0 obj<</Length ${SAMPLE_RESUME_TEXT.length + 50}>>
-stream
-BT /F1 10 Tf 40 752 Td (Sample Resume - John Doe) Tj ET
-endstream
-endobj
-5 0 obj<</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>endobj
-xref
-0 6
-0000000000 65535 f
-0000000009 00000 n
-0000000058 00000 n
-0000000115 00000 n
-0000000274 00000 n
-0000000394 00000 n
-trailer<</Size 6 /Root 1 0 R>>
-startxref
-472
-%%EOF`;
-
-    const blob = new Blob([resumeContent], { type: "application/pdf" });
-    const sampleFile = new File([blob], "sample-resume-john-doe.pdf", {
-      type: "application/pdf",
-    });
-    setResumeFile(sampleFile);
     setError("");
   };
 

@@ -1,6 +1,6 @@
 """
 Roadmap generation and course fetching service.
-Ported from HACKSYNC's roadmap_service and adapted to ProjectMorpheus.
+Ported from HACKSYNC's roadmap_service and adapted to Hack_Overflow.
 """
 
 from __future__ import annotations

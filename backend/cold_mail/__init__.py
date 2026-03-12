@@ -1,6 +1,6 @@
 """
 Cold mail outreach module.
-Ported to ProjectMorpheus.
+Ported to Hack_Overflow.
 """
 
 from .routes import router

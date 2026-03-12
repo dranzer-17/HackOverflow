@@ -1,6 +1,6 @@
 """
 Business logic services for presentation generation.
-Ported from ML_Mumbai and adapted to use ProjectMorpheus GeminiService.
+Ported from ML_Mumbai and adapted to use Hack_Overflow GeminiService.
 """
 import json
 import re

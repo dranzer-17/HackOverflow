@@ -1,7 +1,7 @@
 """
 Career Counselor Integration Service
 Orchestrates user data + Tavily web intelligence + Gemini AI.
-Ported from HACKSYNC and adapted to use ProjectMorpheus GeminiService.
+Ported from HACKSYNC and adapted to use Hack_Overflow GeminiService.
 """
 
 from typing import Dict, List, Optional, AsyncGenerator, Tuple

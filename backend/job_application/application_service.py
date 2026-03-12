@@ -1,6 +1,6 @@
 """
 Business logic to generate tailored resume + cover letter for a job.
-Ported from HACKSYNC's application_service to use ProjectMorpheus GeminiService.
+Ported from HACKSYNC's application_service to use Hack_Overflow GeminiService.
 """
 
 from typing import Dict, Any
