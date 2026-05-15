@@ -1,0 +1,10 @@
+{
+  "name": "hack-overflow",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "next": "^16.1.1"
+  }
+}
