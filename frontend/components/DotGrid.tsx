@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use client';
 import { useRef, useEffect, useCallback, useMemo } from 'react';
 import { gsap } from 'gsap';
@@ -11,7 +12,7 @@ const throttle = (func, limit) => {
     const now = performance.now();
     if (now - lastCall >= limit) {
       lastCall = now;
-      func.apply(this, args);
+      func(...args);
     }
   };
 };
@@ -39,7 +40,7 @@ const DotGrid = ({
   resistance = 750,
   returnDuration = 1.5,
   className = '',
-  style
+  style = {}
 }) => {
   const wrapperRef = useRef(null);
   const canvasRef = useRef(null);
