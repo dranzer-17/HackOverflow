@@ -12,11 +12,11 @@ feature so we don't have to modify existing Mongo schemas.
 """
 
 _STORE_LOCK = Lock()
-_STORE_PATH = os.path.join("output", "interviews.json")
+_STORE_PATH = os.path.join("/tmp/output", "interviews.json")
 
 
 def _ensure_store_file() -> None:
-    os.makedirs("output", exist_ok=True)
+    os.makedirs("/tmp/output", exist_ok=True)
     if not os.path.exists(_STORE_PATH):
         with open(_STORE_PATH, "w", encoding="utf-8") as file:
             json.dump({"interviews": []}, file)

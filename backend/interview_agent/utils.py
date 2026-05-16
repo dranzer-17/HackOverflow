@@ -11,8 +11,8 @@ def log_json_report(filename: str, report_data: str) -> None:
     Mirrors the behavior from the standalone Interview Agent project so
     you can still inspect raw reports on disk.
     """
-    os.makedirs("output", exist_ok=True)
-    filepath = os.path.join("output", filename)
+    os.makedirs("/tmp/output", exist_ok=True)
+    filepath = os.path.join("/tmp/output", filename)
     try:
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(report_data)

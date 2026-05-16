@@ -15,7 +15,7 @@ from config import get_database
 from .tavily_scraper import tavily_scraper
 from .linkedin_scraper import job_scraper
 
-log_dir = os.path.join(os.path.dirname(__file__), "..", "logs")
+log_dir = "/tmp/logs"
 os.makedirs(log_dir, exist_ok=True)
 log_file = os.path.join(log_dir, "job_scraper.log")
 

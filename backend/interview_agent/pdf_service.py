@@ -29,5 +29,5 @@ def extract_text_from_pdf_bytes(pdf_bytes: bytes) -> str:
 
 
 # Ensure output directory exists for compatibility with original project
-os.makedirs("output", exist_ok=True)
+os.makedirs("/tmp/output", exist_ok=True)
 
