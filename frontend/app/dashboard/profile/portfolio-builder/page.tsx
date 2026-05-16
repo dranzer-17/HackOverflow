@@ -138,7 +138,11 @@ export default function PortfolioBuilderProfilePage() {
       }
 
       const data = await response.json();
-      setDeployedUrl(data.portfolio_url);
+      const userId = data.portfolio_url?.split("/portfolio/")[1]?.split("/")[0];
+      const portfolioUrl = userId
+        ? `${window.location.origin}/portfolio/${userId}/deployed`
+        : data.portfolio_url;
+      setDeployedUrl(portfolioUrl);
     } catch (err: unknown) {
       setError(
         err instanceof Error ? err.message : "Failed to deploy portfolio"
