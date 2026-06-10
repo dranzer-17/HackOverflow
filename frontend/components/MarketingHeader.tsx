@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ModeToggle } from "@/components/ModeToggle";
 import { API_ENDPOINTS } from "@/lib/config";
 
@@ -45,6 +46,7 @@ export function MarketingHeader() {
     <header className="relative z-30">
       <div className="container mx-auto px-6 py-5 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5">
+          <Image src="/logo.png" alt="SkillSphere" width={32} height={32} className="rounded-md" />
           <span className="text-2xl font-semibold tracking-[0.35em] uppercase text-foreground/90 font-mono">
             SkillSphere
           </span>
